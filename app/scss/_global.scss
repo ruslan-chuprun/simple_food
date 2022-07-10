@@ -9,3 +9,29 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+body{
+  font-size: 20px;
+  background-color: $silver-100;
+  }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+
+button {
+  display: inline;
+  background-color: $orange-900;
+  @extend %Rubik-400;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  padding: 12px 32px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 6px;
+  max-width: 146px;
+}

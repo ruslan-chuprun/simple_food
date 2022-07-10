@@ -18,7 +18,7 @@ function browsersync() {
   })
 }
 
-async function styles() {
+function styles() {
   return src('app/scss/style.scss')
   .pipe(scss({outputStyle : 'compressed'}))
   .pipe(concat('style.min.css'))
